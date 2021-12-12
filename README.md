@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an attempt to create a proof-of-concept game of hangman using snarky-js via snapps-cli. Unfortunately it never got to a point of working enough to be run without errors.
+This is an attempt to create a proof-of-concept game of hangman using [snarky-js](https://www.npmjs.com/package/@o1labs/snarkyjs) via [snapp-cli](https://github.com/o1-labs/snapp-cli/tree/24ae8496ce967e716b38b4ac2dbe32beac46822c). Unfortunately it never got to a point of working enough to be run without errors.
 
 The project defines a Word class, which uses an array of Field elements, holding integers that represent each letter in the secret word of a game of hangman, and which has a method returning a hash of the word.
 
