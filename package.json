@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.16.4",
     "@babel/preset-typescript": "^7.16.0",
     "@types/jest": "^26.0.24",
+    "babel-jest": "^27.4.4",
     "husky": "^7.0.1",
     "jest": "^27.3.1",
     "lint-staged": "^11.0.1",
@@ -32,8 +33,5 @@
     "**/*": [
       "prettier --write --ignore-unknown"
     ]
-  },
-  "dependencies": {
-    "jest-validate": "^27.4.2"
   }
 }
